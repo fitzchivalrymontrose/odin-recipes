@@ -42,15 +42,17 @@ body {
 }
 
 .ingredients {
+    width: min-content;
     display: flex;
     flex-direction: column;
-    padding: 3em 2em;
+    padding: 3em 3em;
     background-color: slateblue;
     border-radius: 5%;
     border: 2px solid darkslateblue;
     justify-content: flex-end;
     gap: 1em;
-    flex: 2;
+    flex: 1;
+    order: 3;
 }
 
 .ingredients ul {
